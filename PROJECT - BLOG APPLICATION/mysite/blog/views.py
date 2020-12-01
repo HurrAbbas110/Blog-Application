@@ -11,6 +11,10 @@ from django.contrib.postgres.search import TrigramSimilarity
 
 
 # Create your views here.
+
+def testing(request):
+    pass
+
 class PostListView(ListView):
 
     queryset = Post.published.all()
